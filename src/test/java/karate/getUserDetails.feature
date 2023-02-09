@@ -14,6 +14,7 @@ Feature: Get Details from API
     And String1= 'check value test 2'
     And String1= 'check value test 2'
     And String1= 'check value test 4'
+    And String1= 'check value test 5'
     And print String1
 
 
