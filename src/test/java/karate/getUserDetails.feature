@@ -11,6 +11,8 @@ Feature: Get Details from API
     And match mailID contains '@'
     And print id1
     And String1= 'check value test 1'
+    And String1= 'check value test 2'
+    And String1= 'check value test 2'
     And print String1
 
 
