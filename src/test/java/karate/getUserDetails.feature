@@ -13,6 +13,7 @@ Feature: Get Details from API
     And String1= 'check value test 1'
     And String1= 'check value test 2'
     And String1= 'check value test 2'
+    And String1= 'check value test 4'
     And print String1
 
 
