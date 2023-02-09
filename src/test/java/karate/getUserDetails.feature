@@ -3,8 +3,6 @@ Feature: Get Details from API
     Given url 'https://gorest.co.in/public/v2/users/'
 
     When method GET
-
-    And print 'added extra code to master'
     #And print response
     Then status 200
     #And print response
@@ -12,10 +10,12 @@ Feature: Get Details from API
     And def mailID = response[0].email
     And match mailID contains '@'
     And print id1
-#new scenario
+    And String1= 'check value'
+    And print String1
 
 
-#
+
+
   Scenario: Fetching the user details with Invalid input
     Given url 'https://gorest.co.in/public/v2/users/'
     #generateing the random number
