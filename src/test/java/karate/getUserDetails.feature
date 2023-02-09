@@ -10,6 +10,8 @@ Feature: Get Details from API
     And def mailID = response[0].email
     And match mailID contains '@'
     And print id1
+    And String1= 'check value'
+    And print String1
 
 
 
