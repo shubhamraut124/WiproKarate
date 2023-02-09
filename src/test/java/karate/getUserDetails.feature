@@ -3,7 +3,7 @@ Feature: Get Details from API
     Given url 'https://gorest.co.in/public/v2/users/'
 
     When method GET
-    #And print response
+    And print responseWithStageChanges
     Then status 200
     #And print response
   And def id1 = response[0].id
